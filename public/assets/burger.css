@@ -1,0 +1,60 @@
+body {
+    background: lemonchiffon;
+    text-align: center;
+    justify-content: center;
+    margin:auto
+}
+
+#title{
+    /* position: relative;
+    top: 70px;
+    left: 45vw; */
+    text-align: center;
+    justify-content: center;
+    color: chocolate;
+    font-family: 'Indie Flower', cursive;
+}
+#title2{
+    /* position: relative;
+    top:70px;
+    left: 45vw; */
+    text-align: center;
+    justify-content: center;
+    color: chocolate;
+    font-family: 'Indie Flower', cursive;
+}
+
+#burger{
+    text-align: center;
+    justify-content: center;
+    
+    /* position: relative;
+    top: 3vw;
+    left: 42.5vw;    */
+}
+
+.form-inline{
+    /* position: relative;
+    top: 30px;
+    left: 33vw; */
+   
+    text-align: center;
+    justify-content: center;
+}
+
+#staticBurger{
+    color: chocolate;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+
+.text{
+    color: chocolate;
+    font-family: 'Indie Flower', cursive;
+}
+
+.name{
+    font-family: 'Indie Flower', cursive;
+    color: chocolate;
+}
+

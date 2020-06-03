@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/burger.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Burger Fun</title>
+  </head>
+  <body>
+<style>
+    body {
+    background: lemonchiffon;
+}
+</style>
+    
+<div id="title">
+      <h1>Burger</h1>
+    </div>
+
+    <div id="title2">
+      <h4>Eat or Delete</h4>
+    </div>
+
+    <div id="burger">
+      <img src="./img/burger1.png" alt="Burger" width="200px" height="200px" />
+    </div>
+
+    <form class="form-inline">
+        <div class="form-group mb-2">
+          <label for="staticEmail2" class="sr-only">Enter</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticBurger" value="Enter a burger:">
+        </div>
+        
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only"></label>
+          <input type="text" class="form-control" id="burgerInput" placeholder="Type of Burger">
+        </div>
+        <button id="entered" class="btn btn-primary mb-2">Enter</button>
+      </form>
+		  {{{body}}}
+
+      <script src="./js/burgers.js"></script>
+  </body>
+</html>
